@@ -25,6 +25,12 @@ public class MantenimientoDAO {
             System.err.println("Error al registrar mantenimiento: " + e.getMessage());
         }
 
+        public List<Mantenimiento> getMantenimientos(){
+            List<Mantenimiento> result = new ArrayList<>();
+    
+            return result;
+        }
+
     }
 
 }
